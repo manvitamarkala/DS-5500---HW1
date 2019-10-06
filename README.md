@@ -77,7 +77,7 @@ For the graph in figure 10, I have plotted total number of child deaths across d
 ![Child deaths[]{label="fig:ChildDeaths"}](ChildDeaths.png)
 ###### Figure 10: Child deaths across continents over the years
 
-To draw a comparison between life expectancy, income and child deaths across years, I have grouped by continents and calculated the aggregates and represented in figure 10.
+To draw a comparison between life expectancy, income and child deaths across years, I have grouped by continents and calculated the aggregates and represented in figure 11.
 
 ![Comparison[]{label="fig:Comparison"}](Comparison.png)
 ###### Figure 11: Life expectancy, income and child deaths over the years
