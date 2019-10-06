@@ -32,12 +32,88 @@ I have combined the two data sources by geo and formed a single dataframe. After
 ![Continents income[]{label="fig:ContinentsIncome"}](ContinentsIncome.png)
 ###### Figure 3: Income/person across continents over the years
 
-Figure 3 depicts that Europe is the country with the largest income followed by Asia and then Americas and Africa.For a course of a few years during the end 90's asia has crossed Europe in terms of the income. Africa has always remained the lowest income continent and the growth over years is also very flat.Until 1960, Asia remained below Americas and Europe and then increased to a great extent after.
+Figure 3 depicts that Europe is the country with the largest income followed by Asia and then Americas and Africa.For a course of a few years during the end 1900's Asia has crossed Europe in terms of the income. Africa has always remained the lowest income continent and the growth over years is also very flat.Until 1960, Asia remained below Americas and Europe and then increased to a great extent after.
+A deep dive into country wise split will help us understand which countries in the continent are the major contributors for this income/person.
 
 
 ![Europe[]{label="fig:Europe"}](Europe.png)
 ###### Figure 4: Income/person across different countries in Europe over the years
 
-Figure 4 depicts that the most major contribution for Europe's income comes from 
+Figure 4 depicts that the most major contribution for Europe's income comes fro its country France.
+
+![Asia[]{label="fig:Asia"}](Asia.png)
+###### Figure 5: Income/person across different countries in Asia over the years
+
+Figure 5 shows very peculiar trends for the income/person for countries in Asia. Most of the arab countries like Kuwait, Qatar, United Arab Emirates have shown high peaks and drops after 1960 and are following different trends per different years. They have shown higher income/person than countries compared to Europe during the late 1900's.
+
+![Americas[]{label="fig:Americas"}](Americas.png)
+###### Figure 6: Income/person across different countries in Americas over the years
+
+Figure 6 depics that United States followed by Canada are the biggest contributors for income/person in Americas and they show a constant increase across years except a for a very few dips in a few years
+
+![Africa[]{label="fig:Africa"}](Africa.png)
+###### Figure 7: Income/person across different countries in Africa over the years
+
+The per capita GDP in Africa is now less than it was in 1974, having declined over 11 percent. Few of the countries were higher in previous years and have been showing a decline in income/person as we progress through the years
+
+## Problem 3
+
+For this question I have taken data from income - ddf--datapoints--income_per_person_gdppercapita_ppp_inflation_adjusted--by--geo--time.csv, ddf--datapoints--life_expectancy_years--by--geo--time.csv and ddf--datapoints--number_of_child_deaths--by--geo--time and the geo information is taken from ddf--entities--geo--country.csv. 
+
+I have performed data transformations and concatenated income/person, life expectancy and child births for every continent across all years
+
+For the first plot in Figure 8, I have plotted income/person across different continents across different years.Figure 3 depicts that Europe is the country with the largest income followed by Asia and then Americas and Africa.For a course of a few years during the end 1900's Asia has crossed Europe in terms of the income. Africa has always remained the lowest income continent and the growth over years is also very flat.Until 1960, Asia remained below Americas and Europe and then increased to a great extent after.
+
+![Continents income[]{label="fig:ContinentsIncome"}](ContinentsIncome.png)
+###### Figure 8: Income/person across continents over the years
+
+For the graph in figure 9, I have plotted life expectancy across different continents across different years.The life expectancy for all the continents have dropped roughly around 1920( most likely could be a data issue). Europe has the highest life expectancy followed by Americas, then Asia and Africa. Based on the different living conditions of these continents, one of the inferences that can be deduced is hygiene, pollution are the major contributors for long life span expectancies.
+
+![Continents Life expectancy[]{label="fig:LifeExpectancy"}](LifeExpectancy.png)
+###### Figure 9: Life Expectancy across continents over the years
+
+For the graph in figure 10, I have plotted total number of child deaths across different continents across different years. Asia has the highest number of child deaths until very recently after which Africa has started to increase in the total number of child deaths and has crossed Asia.The infant and child mortality rate has declined remarkably in most countries since 1950.A new study says that children in sub-Saharan Africa are more than 15 times more likely to die before the age of 5 than children in high income countries. Americas has always been the least in terms of child deaths across all years.
+
+![Child deaths[]{label="fig:ChildDeaths"}](ChildDeaths.png)
+###### Figure 10: Child deaths across continents over the years
+
+To draw a comparison between life expectancy, income and child deaths across years, I have grouped by continents and calculated the aggregates and represented in figure 10.
+
+![Comparison[]{label="fig:Comparison"}](Comparison.png)
+###### Figure 11: Life expectancy, income and child deaths over the years
+
+Figure 11 depicts a positive relationship between income and life expectancy and they have been increasing with years and they have shown a negative relationship with child deaths as child deaths have been decreasing across years. This is a very positive sign for the world trends. Due to the advancements in medicine and genetics, the life span for human beings is increasing and child deaths decreasing which in tern increase the income/person.
+
+
+## Problem 4
+
+Firstly I have tried to check the relationship between breast cancer deaths of female and the female life expectancy acoss different continents in a particular year ( here :2012). I have taken the data from ddf--datapoints--breast_cancer_number_of_female_deaths--by--geo--time.csv and ddf--datapoints--life_expectancy_female--by--geo--time and performed transformations and grouping
+
+![2012[]{label="fig:2012"}](2012.png)
+###### Figure 12: Breast cancer deaths vs life expectancy for females in 2012
+
+Figure 12 shows that Africa has the least life expectancy for females but also the cases for breast cancers is relatively low and the reason for shorter life spans could be other reasons like healthcare, sanitation etc. Asia and Europe potray larger cases for deaths due to breast cancer even with moderate and higher life expectancy. Among European countries, Belgium and France show high numbers. In Asia, its India and China and the Americas has United states with large cases for breast cancer deaths.
+
+
+I also wanted to check how the number of breast cancer cases and average life expectancy has changed over the years at an overall level.
+
+![Trend_females[]{label="fig:trend_females"}](trend_females.png)
+###### Figure 13: Trend for breast cancer deaths and life expectancy for females
+
+Figure 13 shows that even if there is a positive increase in the life expectancy for females, the breast cancer deaths have increased too. Breast cancer deaths have been an increasing problem recently among women and there needs to be proper caution and medication to avoid it and further increase the life span for female population
+
+## Problem 5
+
+
+
+
+
+
+
+
+
+
+
+
 
 
