@@ -92,7 +92,7 @@ Firstly I have tried to check the relationship between breast cancer deaths of f
 ![2012[]{label="fig:2012"}](2012.png)
 ###### Figure 12: Breast cancer deaths vs life expectancy for females in 2012
 
-Figure 12 shows that Africa has the least life expectancy for females but also the cases for breast cancers is relatively low and the reason for shorter life spans could be other reasons like healthcare, sanitation etc. Asia and Europe potray larger cases for deaths due to breast cancer even with moderate and higher life expectancy. Among European countries, Belgium and France show high numbers. In Asia, its India and China and the Americas has United states with large cases for breast cancer deaths.
+Figure 12 shows that Africa has the least life expectancy for females but also the cases for breast cancers is relatively low and the reason for shorter life spans could be other reasons like healthcare, sanitation etc. Asia and Europe potray larger cases for deaths due to breast cancer even with moderate and higher life expectancy. Among European countries, Russia and Germany show high numbers. In Asia, its India and China and the Americas has United states with large cases for breast cancer deaths. In Africa, countries like Nigeria and South Africa have high cases.
 
 
 I also wanted to check how the number of breast cancer cases and average life expectancy has changed over the years at an overall level.
@@ -105,11 +105,25 @@ Figure 13 shows that even if there is a positive increase in the life expectancy
 ## Problem 5
 
 I have used static plot to answer all of the previous problems so far.
-dv
 
+Advantages of Interactive Visualisations when compared to Static Visualisations:
 
+1) The visuals are more appealing and easier to understand when more number of variables come into picture. If there are multiple variables that need to be compared across different dimensions, static visualisation makes the graph less understandable.
 
+2) Interactive Visualizations can be built so that all users, regardless of disability status, can access the information easily.
 
+3) Identifying trends to find out root causes and depicting a story out of complex data gets easier with interactive visualisations
 
+Disadvantages:
 
+1) Static visualisations can just be exported as images and printed out and be able to access
 
+2) Building statis visualization takes much lesser time and money when compared to Interactive Visualizations.
+
+3) Trying to build a complicated dynamic visualisation can lead to confusion if the visuals of the metrics to be displayed and the kind of charts to be used are not well known.
+
+4) Static visualisations are also easy to build and construct with basic libraries under any computing language
+
+I think the difference between which visualisation should be consumed depends on a number of factors that include time, resources, the end target customers who are going to utilize this data ( Some customers prefer static whereas some want visually appealing results), data ( how complex the data is? We do not want to spend a lot of time on visualisation if the dataset is simple enough) etc.
+
+While solving some of the previous problems in the assignment, I realised that a few of these problems can be simply answered with static graphs whereas a few of them needed good dynamic visualizations to be able to tell a story.
