@@ -32,7 +32,7 @@ I have combined the two data sources by geo and formed a single dataframe. After
 ![Continents income[]{label="fig:ContinentsIncome"}](ContinentsIncome.png)
 ###### Figure 3: Income/person across continents over the years
 
-Figure 3 depicts that Europe is the country with the largest income followed by Asia and then Americas and Africa.For a course of a few years during the end 1900's Asia has crossed Europe in terms of the income. Africa has always remained the lowest income continent and the growth over years is also very flat.Until 1960, Asia remained below Americas and Europe and then increased to a great extent after.
+Figure 3 depicts that Europe is the continent with the largest income followed by Asia and then Americas and Africa.For a course of a few years during the end 1900's Asia has crossed Europe in terms of the income. Africa has always remained the lowest income continent and the growth over years is also very flat.Until 1960, Asia remained below Americas and Europe and then increased to a great extent after.
 A deep dive into country wise split will help us understand which countries in the continent are the major contributors for this income/person.
 
 
@@ -67,12 +67,12 @@ For the first plot in Figure 8, I have plotted income/person across different co
 ![Continents income[]{label="fig:ContinentsIncome"}](ContinentsIncome.png)
 ###### Figure 8: Income/person across continents over the years
 
-For the graph in figure 9, I have plotted life expectancy across different continents across different years.The life expectancy for all the continents have dropped roughly around 1920( most likely could be a data issue). Europe has the highest life expectancy followed by Americas, then Asia and Africa. Based on the different living conditions of these continents, one of the inferences that can be deduced is hygiene, pollution are the major contributors for long life span expectancies.
+For the graph in figure 9, I have plotted life expectancy across different continents across different years.The life expectancy for all the continents have dropped roughly around 1920. Europe has the highest life expectancy followed by Americas, then Asia and Africa. Based on the different living conditions of these continents, one of the inferences that can be deduced is hygiene, pollution are the major contributors for long life span expectancies.
 
 ![Continents Life expectancy[]{label="fig:LifeExpectancy"}](LifeExpectancy.png)
 ###### Figure 9: Life Expectancy across continents over the years
 
-For the graph in figure 10, I have plotted total number of child deaths across different continents across different years. Asia has the highest number of child deaths until very recently after which Africa has started to increase in the total number of child deaths and has crossed Asia.The infant and child mortality rate has declined remarkably in most countries since 1950.A new study says that children in sub-Saharan Africa are more than 15 times more likely to die before the age of 5 than children in high income countries. Americas has always been the least in terms of child deaths across all years.
+For the graph in figure 10, I have plotted total number of child deaths across different continents across different years. Asia has the highest number of child deaths until very recently after which Africa has started to increase in the total number of child deaths and has crossed Asia.The infant and child mortality rate has declined remarkably in most countries since 1950.A new study states that children in sub-Saharan Africa are more than 15 times more likely to die before the age of 5 than children in high income countries. Americas has always been the least in terms of child deaths across all years.
 
 ![Child deaths[]{label="fig:ChildDeaths"}](ChildDeaths.png)
 ###### Figure 10: Child deaths across continents over the years
@@ -110,7 +110,7 @@ Advantages of Interactive Visualisations when compared to Static Visualisations:
 
 1) The visuals are more appealing and easier to understand when more number of variables come into picture. If there are multiple variables that need to be compared across different dimensions, static visualisation makes the graph less understandable.
 
-2) Interactive Visualizations can be built so that all users, regardless of disability status, can access the information easily.
+2) Interactive visualizations can be built so that all users, regardless of disability status, can access the information easily.
 
 3) Identifying trends to find out root causes and depicting a story out of complex data gets easier with interactive visualisations
 
