@@ -39,7 +39,7 @@ A deep dive into country wise split will help us understand which countries in t
 ![Europe[]{label="fig:Europe"}](Europe.png)
 ###### Figure 4: Income/person across different countries in Europe over the years
 
-Figure 4 depicts that the most major contribution for Europe's income comes fro its country France.
+Figure 4 depicts that the most major contribution for Europe's income comes from its country France.
 
 ![Asia[]{label="fig:Asia"}](Asia.png)
 ###### Figure 5: Income/person across different countries in Asia over the years
